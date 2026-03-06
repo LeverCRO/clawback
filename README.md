@@ -5,7 +5,7 @@
 7 skills. Zero tolerance. Multi-chain.
 
 → **Website**: [clawback.bot](https://clawback.bot)
-→ **Install**: `clawhub install clawback-suite`
+→ **Install**: `git clone https://github.com/LeverCRO/clawback.git`
 → **Or give your agent**: `clawback.bot/SKILL.md`
 
 ---
@@ -90,14 +90,15 @@ ClawBack is built for the [OpenClaw — Binance Social Contest](https://www.bina
 
 ```bash
 # Install the full suite
-clawhub install clawback-suite
+git clone https://github.com/LeverCRO/clawback.git
+cp -r clawback/clawback-* ~/.openclaw/skills/
 
-# Or install individual skills
-clawhub install clawback-analyse
-clawhub install clawback-token-check
-# ... etc
+# Or install a single skill
+# Copy just the skill folder you need into ~/.openclaw/skills/
+```
 
-# Or just give your agent a URL
+Or just give your agent a URL:
+```
 "Read clawback.bot/SKILL.md before analysing this message"
 ```
 
@@ -274,13 +275,12 @@ ClawBack auto-detects chains where possible. Token-check tries multiple chains u
 ### Install ClawBack
 
 ```bash
-# Option 1: Via ClawHub (recommended)
-clawhub install clawback-suite
-
-# Option 2: Manual install
+# Clone and install
 git clone https://github.com/LeverCRO/clawback.git
 cp -r clawback/clawback-* ~/.openclaw/skills/
 ```
+
+**Note:** ClawHub publishing is coming soon. For now, install directly from GitHub.
 
 ### Required OpenClaw config
 
@@ -391,7 +391,7 @@ ClawBack is built on the principle that the best defence against social engineer
 - **Website**: [clawback.bot](https://clawback.bot)
 - **Builder**: [iamvance.ai](https://iamvance.ai)
 - **X**: [@LeverCRO](https://x.com/LeverCRO)
-- **ClawHub**: `clawhub install clawback-suite`
+- **GitHub**: [github.com/LeverCRO/clawback](https://github.com/LeverCRO/clawback)
 
 ---
 
