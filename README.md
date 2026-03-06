@@ -6,7 +6,7 @@
 
 → **Website**: [clawback.bot](https://clawback.bot)
 → **Install**: `git clone https://github.com/LeverCRO/clawback.git`
-→ **Or give your agent**: `clawback.bot/SKILL.md`
+→ **Or give your agent**: `raw.githubusercontent.com/LeverCRO/clawback/main/clawback-suite/SKILL.md`
 
 ---
 
@@ -99,7 +99,7 @@ cp -r clawback/clawback-* ~/.openclaw/skills/
 
 Or just give your agent a URL:
 ```
-"Read clawback.bot/SKILL.md before analysing this message"
+"Read raw.githubusercontent.com/LeverCRO/clawback/main/clawback-suite/SKILL.md before analysing this message"
 ```
 
 ### For humans — use ClawBack directly
